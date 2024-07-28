@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="img/profile.jpeg" alt="Foto de perfil" class="profile-img">
+            <h1>Daniela Palacio</h1>
+            <button class="btn" data-target="quien-soy">QUIEN SOY</button>
+            <button class="btn" data-target="vida-familiar">MI VIDA FAMILIAR</button>
+            <button class="btn" data-target="experiencia-laboral">MI EXPERIENCIA LABORAL</button>
+            <button class="btn" data-target="perfil-academico">MI PERFIL ACADEMICO</button>
+        </div>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="popup-title" class="popup-title"></h2>
+            <img id="popup-img" class="popup-img" src="" alt="Popup Image">
+            <div id="popup-text" class="popup-text"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
