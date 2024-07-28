@@ -49,8 +49,8 @@ body {
 
 /* Estilos para la imagen del perfil */
 .profile-img {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -137,7 +137,7 @@ body {
 .popup-img {
     width: auto;
     max-width: 100%;
-    max-height: 400px; /* Adjusted to ensure it fits within the popup */
+    max-height: 250px; /* Adjusted to ensure it fits within the popup */
     margin-bottom: 20px;
     display: block;
     margin-left: auto;
